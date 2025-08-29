@@ -4,7 +4,7 @@
 from typing import Any, Dict
 
 # Typing
-from src.config.learning_dynamics import BaseMetricConfig
+from ..config.learning_dynamics import BaseMetricConfig
 
 # Registry
 from ._registry import METRIC_REGISTRY

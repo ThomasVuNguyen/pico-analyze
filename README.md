@@ -1,5 +1,5 @@
 # 📊 **Pico Analyze**
-
+poetry run analyze --config_path configs/pico-decoder-tiny-dolma29k-v3-ov.yaml --run_path ../pico-train/runs/pico-decoder-tiny-dolma29k-v3
 **Pico Analyze** is a companion toolkit to [**pico-train**](https://github.com/pico-lm/pico-train), designed specifically for studying and visualizing the **learning dynamics** of language models. Whether you want to track activation sparsity, compare layers across checkpoints, or probe the evolution of specific attention heads, Pico Analyze has you covered.
 
 > For a **detailed run-through**, check out the **full tutorial** on our website at [picolm.io](https://picolm.io).
